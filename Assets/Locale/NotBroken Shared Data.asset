@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NotBroken Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NotBroken
+  m_TableCollectionNameGuidString: 77e3d22d901274e4fa981e22bb09ca5c
+  m_Entries:
+  - m_Id: 63805624320
+    m_Key: TextApple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537153802240
+    m_Key: Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 797058043904
+    m_Key: AppleTest
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6473865271925276711
+  references:
+    version: 2
+    RefIds:
+    - rid: 6473865271925276711
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1667867824163
